@@ -18,5 +18,26 @@ code {
 
 /* nav styles */
 .navbar {
-  background-color: gray;
+  /* width: 100%; */
+  background-color: rgba(128, 125, 125, 0.404);
+  padding: 1.5rem 3.5rem;
+}
+
+.nav-items {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-links-items {
+  list-style: none;
+  display: flex;
+  gap: 2.5rem;
+  /* padding: .75rem; */
+}
+
+.nav-links-items li a {
+  color: black;
+  text-decoration: none;
+  border-bottom: 0.15rem solid black;
+  padding-bottom: 0.1.5rem
 }
