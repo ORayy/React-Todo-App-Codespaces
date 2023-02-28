@@ -1,3 +1,16 @@
+/* font imports */
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Montserrat:ital,wght@0,100;0,300;0,600;1,600&family=Roboto:ital,wght@0,400;0,700;1,300;1,700&family=Syne:wght@400;500;600;700;800&display=swap');
+
+
+:root {
+  --primary: black;
+  --secondary: rgba(128, 125, 125, 0.404);
+  --accent: white;
+  --main-font-family: 'Roboto', sans-serif;
+  --heading-font-family: 'Syne', sans-serif;
+  --logo: 'Climate Crisis', cursive;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -19,8 +32,12 @@ code {
 /* nav styles */
 .navbar {
   /* width: 100%; */
-  background-color: rgba(128, 125, 125, 0.404);
+  background-color: var(--secondary);
   padding: 1.5rem 3.5rem;
+}
+
+.nav-logo {
+  font-family: var(--logo);
 }
 
 .nav-items {
@@ -36,7 +53,8 @@ code {
 }
 
 .nav-links-items li a {
-  color: black;
+  color: var(--primary);
+  font-family: var(--main-font-family);
   text-decoration: none;
   border-bottom: 0.15rem solid black;
   padding-bottom: 0.1.5rem
