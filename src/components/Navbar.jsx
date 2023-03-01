@@ -1,19 +1,22 @@
-import About from "../pages/About"
-import Help from "../pages/Help"
-import Create from "../pages/Create"
-import Home from "../pages/Home"
+// import About from "../pages/About"
+// import Help from "../pages/Help"
+// import Create from "../pages/Create"
+// import Home from "../pages/Home"
+import { NavLink } from "react-router-dom"
+
+// import {Link, NavLink } from "react-router-dom";
 
 export default function Navbar() {
   return (
     <nav className="navbar">
       <nav className="nav-items">
-        <nav className="nav-logo">loGO</nav>
+        <NavLink className="nav-logo" to='/'>loGO</NavLink>
         <nav className="nav-links">
           <ul className="nav-links-items">
-            <li><a href={<Home />}>Home</a></li>
-            <li><a href={<About />}>About</a></li>
-            <li><a href={<Help />}>Help</a></li>
-            <li><a href={<Create />}>Create</a></li>
+            <NavLink className="navbarlink" to='/'>Home</NavLink>
+            <NavLink className="navbarlink" to='about'>About</NavLink>
+            <NavLink className="navbarlink" to='help'>Help</NavLink>
+            <NavLink className="navbarlink" to='create'>Create</NavLink>
           </ul>
         </nav>
       </nav>

@@ -38,6 +38,8 @@ code {
 
 .nav-logo {
   font-family: var(--logo);
+  color: var(--primary);
+  text-decoration: none;
 }
 
 .nav-items {
@@ -52,7 +54,7 @@ code {
   /* padding: .75rem; */
 }
 
-.nav-links-items li a {
+.nav-links-items .navbarlink {
   color: var(--primary);
   font-family: var(--main-font-family);
   text-decoration: none;
