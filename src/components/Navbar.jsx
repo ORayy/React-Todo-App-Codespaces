@@ -9,8 +9,11 @@ import { NavLink } from "react-router-dom"
 export default function Navbar() {
   return (
     <nav className="navbar">
+
       <nav className="nav-items">
+
         <NavLink className="nav-logo" to='/'>loGO</NavLink>
+        
         <nav className="nav-links">
           <ul className="nav-links-items">
             <NavLink className="navbarlink" to='/'>Home</NavLink>
@@ -19,7 +22,9 @@ export default function Navbar() {
             <NavLink className="navbarlink" to='create'>Create</NavLink>
           </ul>
         </nav>
+
       </nav>
+      
     </nav>
   )
 }

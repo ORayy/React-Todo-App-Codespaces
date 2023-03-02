@@ -1,0 +1,35 @@
+/* import '../index.css'; */
+/* @import url('../index.css'); */
+
+.about-content {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    padding: 1.5rem 10rem;
+    background-color: var(--primary);
+    color: var(--accent);
+    height: 100vh;
+    overflow: hidden;
+
+}
+
+.about-content h1 {
+    font-family: var(--heading-font-family);
+}
+
+.about-section h1 {
+    font-size: 4rem;
+}
+
+.about-section p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    font-family: var(--main-font-family);
+    font-size: 2rem;
+    margin-top: 4rem;
+}
+
