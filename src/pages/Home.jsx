@@ -1,9 +1,8 @@
-// import React from 'react'
-// import Navbar from "../components/Navbar"
+import '../styles/home.css'
 
 export default function Home() {
   return (
-    <main>
+    <main className="home-main">
       <h1> Welcome</h1>
       <br />
 
