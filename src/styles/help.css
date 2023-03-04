@@ -1,0 +1,46 @@
+
+
+.help-main {
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem 10rem;
+    background-color: var(--primary);
+    color: var(--accent);
+    height: 100%;
+}
+
+.help-section h1 {
+    font-family: var(--heading-font-family);
+    font-size: 4rem;
+    margin-top: 4rem;
+}
+
+.help-section h2:before {
+    content: "";
+    display: block;
+    border-top: 0.25rem solid white; /* Set the style of the overline */
+    margin-top: 0.5rem; /* Set the space between the overline and the text */
+    padding-top: 0.5rem;
+  }
+
+
+.help-section h2:after {
+    content: "";
+    display: block;
+    border-top: 0.25rem solid white; /* Set the style of the overline */
+    margin-top: 0.5rem; /* Set the space between the overline and the text */
+    padding-top: 0.5rem;
+  }
+
+.help-section h2 {
+    font-family: var(--heading-font-family);
+    display: inline-block;
+    /* text-underline-offset: 5px */
+
+}
+
+.help-section p {
+    font-family: var(--main-font-family);
+    font-size: 2rem;
+    margin-top: 4rem;
+}
