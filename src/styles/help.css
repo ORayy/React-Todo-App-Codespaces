@@ -44,3 +44,16 @@
     font-size: 2rem;
     margin-top: 4rem;
 }
+
+.help-link {
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+    gap: 2rem;
+}
+
+.help-link a {
+    color: white;
+    border-color: white;
+    text-decoration: none;
+}

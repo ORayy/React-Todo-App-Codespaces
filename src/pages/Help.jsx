@@ -1,8 +1,16 @@
 import '../styles/help.css'
 
+// import { NavLink } from 'react-router-dom'
+
 export default function Help() {
   return (
     <main className="help-main">
+
+      {/* <nav className="help-link">
+        <NavLink to='faq'>FAQ</NavLink>
+        <NavLink to='contact'>CONTACTS</NavLink>
+      </nav> */}
+
       <section className="help-section">
         <h1>Need Help?</h1>
         <h2>Leave a Query</h2>
@@ -15,7 +23,7 @@ export default function Help() {
         <br />
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi voluptas aliquam laboriosam incidunt rerum? Fuga libero, laborum officiis optio magni architecto eaque cupiditate neque aliquid. Odio sapiente beatae, repudiandae rerum consequuntur.</p>
         <br />
-        </section>
+      </section>
     </main>
   )
 }
