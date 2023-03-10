@@ -1,7 +1,14 @@
-import React from 'react'
+import Form from "./Form"
 
 export default function Contact() {
   return (
-    <div>Contact</div>
+    <section className="contact-section">
+      <div className="conttact-form">
+        <h1>CONTACT FORM</h1>
+
+        <Form />
+      </div>
+
+    </section>
   )
 }
