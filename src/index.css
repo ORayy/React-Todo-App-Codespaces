@@ -61,3 +61,10 @@ code {
   border-bottom: 0.15rem solid black;
   padding-bottom: 0.1.5rem
 }
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

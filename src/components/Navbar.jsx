@@ -19,7 +19,7 @@ export default function Navbar() {
             <NavLink className="navbarlink" to='/'>Home</NavLink>
             <NavLink className="navbarlink" to='about'>About</NavLink>
             <NavLink className="navbarlink" to='help'>Help</NavLink>
-            <NavLink className="navbarlink" to='create'>Create</NavLink>
+            <NavLink className="navbarlink" to='careers'>Careers</NavLink>
           </ul>
         </nav>
 

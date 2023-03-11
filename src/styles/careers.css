@@ -1,0 +1,11 @@
+
+.careers-section {
+    padding: 1.0rem 3.5rem;
+    background-color: var(--primary);
+}
+
+.career-link {
+    margin-right: 1.5rem;
+    font-family: var(--heading-font-family);
+    color: var(--accent);
+}

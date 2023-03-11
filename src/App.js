@@ -1,8 +1,8 @@
 // pages
 import Home from './pages/Home';
 import About from './pages/About';
-// import Help from './pages/Help';
-// import Create from './pages/Create';
+import Careers from './pages/Careers';
+import Add from './pages/Add'
 
 
 import {
@@ -12,10 +12,13 @@ import {
   RouterProvider,
 } from "react-router-dom";
 
-// import Navbar from './components/Navbar';
+// layouts
 import RootLayout from './layouts/RootLayout';
 import ErrorLayout from './layouts/ErrorLayout';
 import HelpLayout from './layouts/HelpLayout';
+import CareersLayout from './layouts/CareersLayout'
+
+// pages
 import Faq from './pages/Faq';
 import Contact from './pages/Contact';
 
@@ -26,9 +29,15 @@ const router = createBrowserRouter(
 
       <Route index element={<Home />} />
       <Route path='about' element={<About />} />
+      
       <Route path='help' element={<HelpLayout />} >
         <Route path='faq'  element={<Faq />} />
         <Route path='contact' element={<Contact />} />
+      </Route>
+
+      <Route path='/' element={<CareersLayout />}>
+        <Route path='careers' element={<Careers />} />
+        <Route path='add' element={<Add />} />
       </Route>
 
     </Route>
